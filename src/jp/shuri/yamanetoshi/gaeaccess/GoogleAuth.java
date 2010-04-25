@@ -29,6 +29,8 @@ public class GoogleAuth {
         httpost.setEntity(new UrlEncodedFormEntity(nvps, HTTP.UTF_8));
         response = httpClient.execute(httpost);
         
+        if(response.getStatusLine().getStatusCode() >= 400) return "";
+        
         String authKey = null;
         BufferedReader br = null;
 
