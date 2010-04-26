@@ -206,10 +206,6 @@ public class HTTPResponse2JSONTest extends TestCase {
 			
 		}
 	}
-
-	public HTTPResponse2JSONTest() {
-		
-	}
 	
 	public void testgetJSONString() {
 		try {

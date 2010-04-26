@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- ====================================================================== 
+     2010/04/26 22:45:55                                                        
+
+     GAEAccess    
+     GAE Access parts
+                   
+     rms                                                                
+     ====================================================================== -->
+<project name="GAEAccess" default="jar">
+    <description>
+            GAE Access parts
+    </description>
+
+    <!-- ================================= 
+          target: default              
+         ================================= -->
+    <target name="jar" depends="javac" description="GAE Access parts">
+        
+    </target>
+
+    <!-- - - - - - - - - - - - - - - - - - 
+          target: depends                      
+         - - - - - - - - - - - - - - - - - -->
+    <target name="javac">
+    </target>
+
+</project>
