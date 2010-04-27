@@ -16,13 +16,17 @@
           target: default              
          ================================= -->
     <target name="jar" depends="javac" description="GAE Access parts">
-        
+        <jar destfile="GAEAccess.jar"></jar>
     </target>
 
     <!-- - - - - - - - - - - - - - - - - - 
           target: depends                      
          - - - - - - - - - - - - - - - - - -->
     <target name="javac">
+    	<javac srcdir="src"
+    		destdir="bin"
+    	classpath="lib/httpclient-4.0.1.jar;lib/httpcore-4.0.1.jar"
+	/>
     </target>
 
 </project>
