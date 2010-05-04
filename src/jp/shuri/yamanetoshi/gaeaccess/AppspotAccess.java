@@ -8,7 +8,7 @@ public class AppspotAccess {
 	private String URL;
 	private HttpClient httpClient;
 	
-	AppspotAccess(String url, HttpClient httpClient) {
+	public AppspotAccess(String url, HttpClient httpClient) {
 		this.URL = url;
 		this.httpClient = httpClient;
 	}
